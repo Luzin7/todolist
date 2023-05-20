@@ -1,0 +1,37 @@
+:root {
+  --bg-color: #8d99ae;
+  --color-primary: #2b2d42;
+  --color-primary-2: #edf2f4;
+  --color-secondary: rgba(143, 122, 214, 0.4392156863);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1c1e26;
+    --color-primary: #fdfae0;
+    --color-primary-2: #f2f2f2;
+    --color-secondary: #4a4f67;
+  }
+}
+.task__form {
+  display: flex;
+  margin-bottom: 2em;
+  gap: 1em;
+  width: 100%;
+}
+.task__form input {
+  width: 100%;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 7px;
+  outline: none;
+  font-size: 1em;
+  font-weight: 600;
+}
+.task__form #btn__add__task {
+  height: 4em;
+  width: 4em;
+  font-size: 1em;
+  font-weight: 600;
+}/*# sourceMappingURL=addTask.css.map */

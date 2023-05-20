@@ -1,0 +1,27 @@
+@import "../../styles/functions";
+@import "../../styles/variables";
+
+.task__form {
+  display: flex;
+  margin-bottom: 2em;
+  gap: 1em;
+  width: 100%;
+
+  & input {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid getColor(color-secondary);
+    border-radius: 7px;
+    outline: none;
+    font-size: 1em;
+    font-weight: $semi-bold;
+  }
+
+  & #btn__add__task {
+    height: 4em;
+    width: 4em;
+    font-size: 1em;
+    font-weight: $semi-bold;
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../styles/_functions.scss","tasksList.css","tasksList.scss"],"names":[],"mappings":"AAgBA;EAEI,mBAAA;EAAA,wBAAA;EAAA,0BAAA;EAAA,oDAAA;ACbJ;;ADgBA;EACE;IAEI,mBAAA;IAAA,wBAAA;IAAA,0BAAA;IAAA,0BAAA;ECXJ;AACF;ACZA;EACE,aAAA;EACA,6BAAA;EACA,mBAAA;ADcF;;ACXA;EACE,kCAAA;ADcF;ACbE;EACE,gBAAA;ADeJ;ACbE;EACE,cAAA;ADeJ;ACbE;EACE,cAAA;ADeJ","file":"tasksList.css"}

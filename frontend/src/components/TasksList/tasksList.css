@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #8d99ae;
+  --color-primary: #2b2d42;
+  --color-primary-2: #edf2f4;
+  --color-secondary: rgba(143, 122, 214, 0.4392156863);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1c1e26;
+    --color-primary: #fdfae0;
+    --color-primary-2: #f2f2f2;
+    --color-secondary: #4a4f67;
+  }
+}
+#actions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn__actions {
+  background: var(--color-primary-2);
+}
+.btn__actions .action__icon {
+  font-size: 2.8em;
+}
+.btn__actions #icon__edit {
+  color: #5a5a5a;
+}
+.btn__actions #icon__delete {
+  color: #ff4d4d;
+}/*# sourceMappingURL=tasksList.css.map */

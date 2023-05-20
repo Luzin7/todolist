@@ -1,0 +1,32 @@
+@import "./variables";
+
+$colors: (
+  bg-color: $bg-color,
+  color-primary: $color-primary,
+  color-primary-2: $color-primary-2,
+  color-secondary: $color-secondary,
+);
+
+$colors-dark: (
+  bg-color: $bg-color-dark,
+  color-primary: $color-primary-dark,
+  color-primary-2: $color-primary-2-dark,
+  color-secondary: $color-secondary-dark,
+);
+
+:root {
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    @each $name, $color in $colors-dark {
+      --#{$name}: #{$color};
+    }
+  }
+}
+
+@function getColor($color-name) {
+  @return var(--#{$color-name});
+}
